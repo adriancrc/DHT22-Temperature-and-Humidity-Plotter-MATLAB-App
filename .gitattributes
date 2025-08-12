@@ -1,0 +1,17 @@
+# Fuerza detección como MATLAB
+*.m   linguist-language=MATLAB
+*.mlx linguist-language=MATLAB
+*.mlapp linguist-language=MATLAB
+*.mlappinstall linguist-language=MATLAB
+
+# (Opcional) Excluir de conteo de lenguajes
+*.md   linguist-detectable=false
+*.txt  linguist-detectable=false
+*.pdf  linguist-detectable=false
+*.png  linguist-detectable=false
+*.jpg  linguist-detectable=false
+*.gif  linguist-detectable=false
+
+# (Opcional) Si tienes scripts auxiliares que no quieres que cuenten
+*.py   linguist-detectable=false
+*.js   linguist-detectable=false
