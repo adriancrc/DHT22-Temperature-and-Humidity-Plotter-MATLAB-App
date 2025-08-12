@@ -17,58 +17,73 @@
 
 ---
 
-## About
-
-MATLAB App Designer project that **reads a DHT22 sensor via Arduino** and **plots temperature (°C) and relative humidity (%) in real time**.  
-This repository shares the **complete source code** as a **collaborative project**, inviting community contributions for improvements, optimizations, and new features.
-
----
-
-## Summary (140 characters)
-
-Real‑time DHT22 temperature & humidity plotting with MATLAB App Designer and Arduino, open and collaborative for community improvements.
+## 👨‍💻 Author
+**Adrián José Quesada Martínez**  
+*Instituto Tecnológico de Costa Rica*
 
 ---
 
-## Description
+## 📘 Description
 
-**Features**
-- Live plots for temperature and relative humidity
-- Numeric indicators (°C and %RH)
-- Toggles to start/stop each channel
-- Serial port selector (COM1–COM7) with status lamps
-- Responsive layout (auto‑reflow)
+This MATLAB App Designer project reads data from a **DHT22 sensor** connected to an **Arduino**, displaying and plotting **temperature (°C)** and **relative humidity (%)** in real time.  
 
-**Requirements**
-- MATLAB R2021a or later
+It is released as a **collaborative open project**, encouraging community contributions to add new features, improve performance, and expand compatibility.
+
+---
+
+## ✨ Features
+
+- **Live data acquisition** from the DHT22 sensor.
+- **Real-time plots** for temperature and humidity.
+- **Numeric indicators** for both parameters.
+- **COM port selector** (COM1–COM7) with status lamps.
+- **Responsive UI layout** that adapts to window size.
+- Fully compatible with **MATLAB Online**.
+
+---
+
+## 🚀 How to Use
+
+### 🔹 Option 1: Download
+1. Download and unzip the repository.
+2. Open the `.mlapp` file in MATLAB®.
+
+### 🔹 Option 2: [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=adriancrc/DHT22-Temperature-and-Humidity-Plotter-MATLAB-App)
+- Sign in with your MathWorks account.
+- Use your institutional email if you have an academic license.
+
+**Hardware setup:**
+- Arduino Mega 2560 (default in code).
+- DHT22 sensor connected to pin **D3**.
+- 10 kΩ pull-up resistor between DATA and VCC recommended.
+
+---
+
+## 🛠 Requirements
+
+- **MATLAB® R2021a or later**
 - MATLAB Support Package for Arduino Hardware
-- Adafruit DHT22 library (via MATLAB Add‑On / Arduino Library Manager)
-- Arduino Mega 2560 (default, configurable)
-- DHT22 connected to **D3** (adjust in code if needed)
-
-**Quick Start**
-1. Install required Add‑Ons in MATLAB.
-2. Connect Arduino + DHT22 (DATA → D3, 10 kΩ pull‑up to VCC recommended).
-3. Open `Temperatura.mlapp`.
-4. Select the proper COM port and toggle **System → On**.
-5. Toggle **Temperature** / **Humidity** to start plotting.
-
-**Notes**
-- Buffer window set to 50 samples (editable).
-- Extend COM list if your system uses other ports.
+- Adafruit DHT22 library for Arduino (via MATLAB Add-On or Arduino IDE Library Manager)
 
 ---
 
-## Tags
+## 📄 License
 
-**English:**  
-`matlab`, `app-designer`, `arduino`, `dht22`, `temperature`, `humidity`, `sensor`, `data-logging`, `real-time`, `ui`
-
-**Español:**  
-`matlab`, `app-designer`, `arduino`, `dht22`, `temperatura`, `humedad`, `sensor`, `registro-de-datos`, `tiempo-real`, `interfaz`
+This project is licensed under the terms in the [`LICENSE`](LICENSE) file.
 
 ---
 
-## License
+## 📬 Support
 
-Released under the MIT License – see [LICENSE](LICENSE).
+For questions or suggestions:  
+📧 [adquesada@itcr.ac.cr](mailto:adquesada@itcr.ac.cr)
+
+---
+
+## ⭐ How to Support
+
+If you find this project useful, please leave a ⭐ on GitHub and rate it on MathWorks File Exchange.  
+Your feedback helps improve and grow the project!
+
+---
+© 2025 Adrián José Quesada Martínez
